@@ -1,3 +1,93 @@
+    html{
+      scroll-behavior: smooth;
+    }
+
+/*HEADER*/
+.header-top img{
+max-width:100px;
+}
+
+
+    .btn-primary{
+      background-color:#23153d;
+      border:none;
+    }
+
+    .navbar{
+      position:fixed;
+      margin-top: 20px;
+    }
+
+    .navbar-brand{
+      position:fixed;
+    }
+
+    img{
+      max-width:400px;
+    }
+    footer{
+      height:150px;
+      /*background:#23153d;*/
+      color: #333;
+    }
+    header{
+      height:5vh;
+     /* background-color:#23153d;*/
+    }
+    body {
+      position: relative;
+    }
+
+    #aisite-content .section{
+      min-height:98vh;
+      padding-top:1vh;
+      padding-bottom:1vh;
+    border-top:1px solid #ddd;
+    }
+
+    #aisite-content .section h4,#aisite-content section p{
+      display:block;
+      width: 100%;
+    }
+
+ #aisite-content .section p{
+        
+    }
+    
+    /*NAVIGATION ACTIVE*/
+    .nav-pills .nav-link{
+      color:#333;
+            border-right: 1px solid #eee;
+            border-radius:0;
+    }
+
+    .nav-pills .nav-link.active{
+      color:#333;
+      background-color:transparent !important;
+      font-weight:bold !important;
+    }
+
+
+/*Jumbotron*/
+.jumbotron{
+  padding:0;
+  margin-bottom: 100px;
+  background: transparent;
+}
+
+.jumbo-overview{
+  padding:1em;
+}
+
+.jumbo-image{
+  background:url("https://aisite.ai/wp-content/uploads/2019/12/feature-4.jpg") no-repeat center;
+}
+
+/*FOOTER*/
+footer img{
+  max-width:80px;
+}
+
 .App {
   text-align: center;
 }
